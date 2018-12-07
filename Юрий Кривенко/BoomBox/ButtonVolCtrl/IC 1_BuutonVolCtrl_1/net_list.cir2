@@ -1,0 +1,25 @@
+0 ICSigma100In1 O_C0_A0_P1_out Link4 O_C0_A0_P2_out Link5
+1 GPIAlg1 O_C178_A0_P1_out Link0
+2 GPIAlg2 O_C180_A0_P1_out Link1
+3 ExtIntInAlg1 O_C186_A0_P1_out Link2
+4 SWGain1940DBAlg1 I_C122_A0_P1_in Link4 O_C122_A0_P2_out Link6
+5 SWGain1940DBAlg2 I_C122_A1_P1_in Link5 O_C122_A1_P2_out Link7
+6 PushButtonNoMuteAlg1 I_C144_A0_P1_in Link0 I_C144_A0_P2_in Link1 I_C144_A0_P3_in Link2 I_C144_A0_P4_in Link6 I_C144_A0_P7_in Link7 O_C144_A0_P5_out Link3 O_C144_A0_P6_out Link9 O_C144_A0_P8_out Link8
+7 RegReadIntOutAlg1 I_C190_A0_P1_in Link3
+8 PEQ1Chan_SinglePrec1 I_C165_A0_P1_in Link9 I_C165_A0_P3_in Link8 O_C165_A0_P2_out Link14 O_C165_A0_P4_out Link15
+9 SingleCtrlSplit1 I_C36_A0_P1_in Link14 O_C36_A0_P2_out Link18 O_C36_A0_P3_out Link20
+10 SingleCtrlSplit2 I_C50_A0_P1_in Link15 O_C50_A0_P2_out Link19 O_C50_A0_P3_out Link21
+11 CrossoverFilter2WayAlgSP1 I_C143_A0_P1_in Link18 O_C143_A0_P2_out Link16 O_C143_A0_P3_out Link12
+12 CrossoverFilter2WayAlgSP2 I_C161_A0_P1_in Link19 O_C161_A0_P2_out Link17 O_C161_A0_P3_out Link13
+13 NxNMixer1940Alg2 I_C67_A0_P2_in Link20 I_C67_A0_P3_in Link21 O_C67_A0_P1_out Link27
+14 Gain1940AlgNS1 I_C11_A0_P1_in Link12 O_C11_A0_P2_out Link10
+15 Gain1940AlgNS2 I_C11_A1_P1_in Link13 O_C11_A1_P2_out Link11
+16 NxNMixer1940Alg1 I_C40_A0_P2_in Link16 I_C40_A0_P3_in Link17 O_C40_A0_P1_out Link22
+17 NthOrderDouble1 I_C91_A0_P1_in Link27 O_C91_A0_P2_out Link26
+18 ICSigma100Out1 I_C139_A0_P1_in Link10
+19 ICSigma100Out2 I_C141_A0_P1_in Link11
+20 SingleBandSpkrEQAlgSP2 I_C88_A0_P1_in Link22 O_C88_A0_P2_out Link24
+21 Gain1940AlgNS3 I_C48_A0_P1_in Link26 O_C48_A0_P2_out Link23
+22 ICSigma100Out4 I_C17_A0_P1_in Link23
+23 Gain1940AlgNS4 I_C64_A0_P1_in Link24 O_C64_A0_P2_out Link25
+24 ICSigma100Out3 I_C15_A0_P1_in Link25

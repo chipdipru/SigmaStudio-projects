@@ -1,0 +1,29 @@
+0 ICSigma100In1 O_C0_A0_P1_out Link12 O_C0_A0_P2_out Link13
+1 GPIAlg1 O_C178_A0_P1_out Link28
+2 GPIAlg2 O_C180_A0_P1_out Link27
+3 ExtIntInAlg1 O_C186_A0_P1_out Link29
+4 ExtIntInAlg2 O_C98_A0_P1_out Link22
+5 GPIAlg3 O_C106_A0_P1_out Link24
+6 GPIAlg4 O_C108_A0_P1_out Link23
+7 DCBlockAlgDoublePrec1 I_C86_A0_P1_in Link12 O_C86_A0_P2_out Link10
+8 DCBlockAlgDoublePrec2 I_C86_A1_P1_in Link13 O_C86_A1_P2_out Link11
+9 UPDOWNvolAlg_INTF1 I_C75_A0_P1_in Link24 I_C75_A0_P2_in Link23 I_C75_A0_P3_in Link22 O_C75_A0_P4_out Link20 O_C75_A0_P5_out Link21
+10 UPDOWNvolAlg_INTF2 I_C138_A0_P1_in Link28 I_C138_A0_P2_in Link27 I_C138_A0_P3_in Link29 O_C138_A0_P4_out Link31 O_C138_A0_P5_out Link30
+11 SWGain1940DBAlg1 I_C122_A0_P1_in Link10 O_C122_A0_P2_out Link32
+12 SWGain1940DBAlg2 I_C122_A1_P1_in Link11 O_C122_A1_P2_out Link33
+13 RegReadIntOutAlg2 I_C100_A0_P1_in Link21
+14 RegReadIntOutAlg1 I_C190_A0_P1_in Link30
+15 ExtSWGainDB2 I_C114_A0_P1_in Link31 I_C114_A0_P2_in Link32 I_C114_A0_P4_in Link33 O_C114_A0_P3_out Link25 O_C114_A0_P5_out Link26
+16 PEQ1Chan_SinglePrec1 I_C165_A0_P1_in Link25 I_C165_A0_P3_in Link26 O_C165_A0_P2_out Link2 O_C165_A0_P4_out Link3
+17 SingleCtrlSplit1 I_C28_A0_P1_in Link2 O_C28_A0_P2_out Link8 O_C28_A0_P3_out Link4
+18 SingleCtrlSplit2 I_C28_A1_P1_in Link3 O_C28_A1_P2_out Link9 O_C28_A1_P3_out Link5
+19 NthOrderDouble21 I_C53_A0_P1_in Link4 I_C53_A0_P2_in Link5 O_C53_A0_P3_out Link14 O_C53_A0_P4_out Link15
+20 NthOrderDouble22 I_C11_A0_P1_in Link8 I_C11_A0_P2_in Link9 O_C11_A0_P3_out Link6 O_C11_A0_P4_out Link7
+21 Gain1940AlgNS1 I_C25_A0_P1_in Link6 O_C25_A0_P2_out Link0
+22 Gain1940AlgNS2 I_C25_A1_P1_in Link7 O_C25_A1_P2_out Link1
+23 SuperBassAlgSWSlew1 I_C45_A0_P1_in Link14 I_C45_A0_P2_in Link15 O_C45_A0_P3_out Link16 O_C45_A0_P4_out Link17
+24 ExtSWGainDB1 I_C64_A0_P1_in Link20 I_C64_A0_P2_in Link16 I_C64_A0_P4_in Link17 O_C64_A0_P3_out Link18 O_C64_A0_P5_out Link19
+25 ICSigma100Out1 I_C139_A0_P1_in Link0
+26 ICSigma100Out2 I_C141_A0_P1_in Link1
+27 ICSigma100Out3 I_C15_A0_P1_in Link18
+28 ICSigma100Out4 I_C17_A0_P1_in Link19
